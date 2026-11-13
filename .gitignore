@@ -1,0 +1,17 @@
+# Cookie exports and browser data must never be committed.
+*.json
+!manifest.json
+Cookies
+Cookies-*
+Local State
+Login Data*
+*.sqlite*
+*.db*
+*.log
+*.bak
+*.zip
+*.crx
+*.pem
+backup*/
+node_modules/
+.env*
